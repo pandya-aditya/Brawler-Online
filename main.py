@@ -4,10 +4,7 @@ from player import Player
 
 pygame.init()
 
-width = 500
-height = 500
-
-win = pygame.display.set_mode((100, 100), pygame.FULLSCREEN)
+win = pygame.display.set_mode((1920, 1080) , pygame.FULLSCREEN)
 pygame.display.set_caption("Client")
 
 attackBar = [pygame.image.load("pictures/transparent.png"),
@@ -50,7 +47,8 @@ def redrawWindow(win, player, player2, health1, health2, attackBar, isattack1, i
 def main():
     run = True
     n = Network()
-    p = n.getP()
+    p = Player(100, 800, 1)
+    p2 = Player(1700, 800, 0)
     clock = pygame.time.Clock()
     health1 = 5
     health2 = 5
@@ -60,7 +58,7 @@ def main():
 
     while run:
         clock.tick(60)
-        p2 = n.send(p)
+        
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
