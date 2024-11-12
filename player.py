@@ -17,7 +17,7 @@ class Player():
                              "pictures/ninja/Run__006.png",
                              "pictures/ninja/Run__007.png",
                              "pictures/ninja/Run__008.png",
-                             "pictures/ninja/Run__009.png", ]
+                             "pictures/ninja/Run__009.png"]
 
         self.characterIdle = ["pictures/ninja/Idle__000.png",
                               "pictures/ninja/Idle__001.png",
@@ -28,7 +28,7 @@ class Player():
                               "pictures/ninja/Idle__006.png",
                               "pictures/ninja/Idle__007.png",
                               "pictures/ninja/Idle__008.png",
-                              "pictures/ninja/Idle__009.png", ]
+                              "pictures/ninja/Idle__009.png"]
 
         self.slide = ["pictures/ninja/Slide__000.png",
                       "pictures/ninja/Slide__001.png",
@@ -39,7 +39,7 @@ class Player():
                       "pictures/ninja/Slide__006.png",
                       "pictures/ninja/Slide__007.png",
                       "pictures/ninja/Slide__008.png",
-                      "pictures/ninja/Slide__009.png", ]
+                      "pictures/ninja/Slide__009.png"]
 
         self.characterJump = ["pictures/ninja/Jump__000.png",
                               "pictures/ninja/Jump__001.png",
@@ -50,7 +50,7 @@ class Player():
                               "pictures/ninja/Jump__006.png",
                               "pictures/ninja/Jump__007.png",
                               "pictures/ninja/Jump__008.png",
-                              "pictures/ninja/Jump__009.png", ]
+                              "pictures/ninja/Jump__009.png"]
 
         self.characterThrow = ["pictures/ninja/Throw__000.png",
                                "pictures/ninja/Throw__001.png",
@@ -61,7 +61,7 @@ class Player():
                                "pictures/ninja/Throw__006.png",
                                "pictures/ninja/Throw__007.png",
                                "pictures/ninja/Throw__008.png",
-                               "pictures/ninja/Throw__009.png", ]
+                               "pictures/ninja/Throw__009.png"]
 
         self.crouchAttack = "pictures/crouch attack.png"
         self.characterImage = "pictures/ninja/Idle__000.png"

@@ -62,13 +62,8 @@ def main():
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                run = Fa
+                run = False
                 pygame.quit()
-        # if agent_selected == False:
-        #     win.blit(ags, (0, 0))
-        #     if event.type == pygame.KEYDOWN:
-        #         if event.key == pygame.K_ENTER:
-        #             agent_selected = True 
                 
         p.move()
         health1, health2, isattack1, isattack2 = redrawWindow(win, p, p2, health1, health2, attackBar, isattack1, isattack2)
